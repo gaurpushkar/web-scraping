@@ -1,0 +1,26 @@
+# Scraped output (can be large / contain beneficiary records)
+data/
+*.csv
+*.xlsx
+*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local drivers / secrets
+chromedriver*
+*.exe
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
